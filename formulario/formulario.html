@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Palabras</title>
+</head>
+<body>
+    <h2>Contador de Palabras en Archivo de Texto</h2>
+    <form action="procesador.php" method="post" enctype="multipart/form-data">
+        <label for="archivo">Selecciona un archivo de texto:</label><br>
+        <input type="file" id="archivo" name="archivo" accept=".txt"><br>
+        <label for="palabra">Palabra a buscar:</label><br>
+        <input type="text" id="palabra" name="palabra"><br><br>
+        <input type="submit" value="Contar Palabras">
+    </form>
+</body>
+</html>
